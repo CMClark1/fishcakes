@@ -36,6 +36,6 @@ A dataframe of length observations for a given species with length groups define
 Pull and clean detailed length data for a given species from the survey database.
 }
 \examples{
-x <- detpull(species=10)
+x <- detpull(spec=10)
 
 }
