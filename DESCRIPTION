@@ -1,12 +1,13 @@
 Package: fishcakes
-Title: What the Package Does (One Line, Title Case)
+Title: Stratified survey diet data analysis for groundfish species
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Caira", "Clark", , "caira.clark@dfo-mpo.gc.ca", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: A package to perform an analysis of length- and spatially-stratified diet data from the Maritimes Region Ecosystem Survey, with a focus on groundfish.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    magrittr
