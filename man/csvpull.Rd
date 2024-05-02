@@ -4,12 +4,16 @@
 \alias{csvpull}
 \title{Pull and clean diet data from .csv file}
 \usage{
-csvpull(file = NULL, lgroup = 5)
+csvpull(file = NULL, lgroup = 5, lifestage = "GROUP", juvmaxlen = 40)
 }
 \arguments{
 \item{file}{A file name address.}
 
 \item{lgroup}{Length groups used for selecting individual fish to record stomach contents. Default is 5 because, for the most species, the requirement for stomach sampling is 1 per 5cm.}
+
+\item{lifestage}{Default is to group all lifestages together. To compare juveniles to adults, use code 1 and specify juvmaxlen (below).}
+
+\item{juvmaxlen}{Juvenile maximum length. Specify the maximum length for a juvenile of the predator species. Default is 40 (cm).}
 }
 \value{
 A dataframe of data without missing prey weights and with length groups specified.
